@@ -36,31 +36,31 @@
 
 
 
-// var num = 1;    //variable s global 
-// function showGlobal(){
-//     console.log(num);  //uses the global num
-// }
-// showGlobal();
+var num = 1;    //variable s global 
+function showGlobal(){
+    console.log(num);  //uses the global num
+}
+showGlobal();
 
-// function showLocal (){
-//     var num = 2;    //num is local , hides the global num 
-//     console.log(num);
-// }
+function showLocal (){
+    var num = 2;    //num is local , hides the global num 
+    console.log(num);
+}
 
-// showLocal();
-// showGlobal();
-
-
+showLocal();
+showGlobal();
 
 
-// function showArgumnet(num){
-//     console.log(num);
-// }
 
 
-// showLocal();
-// showGlobal();
-// showArgumnet(3);
+function showArgumnet(num){
+    console.log(num);
+}
+
+
+showLocal();
+showGlobal();
+showArgumnet(3);
 
 
 
