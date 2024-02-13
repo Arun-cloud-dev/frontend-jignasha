@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rollover</title>
+</head>
+<body>
+    <h2>img rollover with movse event</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi quidem illo, nobis consequuntur iusto reprehenderit nihil voluptatum porro voluptates magnam possimus amet aperiam, aliquid rerum iure atque dicta officia praesentium?</p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, fugiat quisquam? Voluptas eos nam magnam itaque nemo dignissimos praesentium ratione sequi incidunt aperiam, expedita illo, recusandae sed, dolor tempore hic.
+
+
+    <img src="./1-removebg-preview.png" style="height: 100px;" width="100px" id="img" name="img" alt="Logo">
+
+<script>
+    let rolloverimg = document.getElementById("img");
+
+    rolloverimg.onmouseover = function(){
+        rolloverimg.style="height:200px; width:200px; border: 5px solid yellow;"
+    };
+
+    rolloverimg.onmouseout = function(){
+        rolloverimg.style = "height:100px; width:100px;"
+    };
+</script>
+
+</body>
+</html>
